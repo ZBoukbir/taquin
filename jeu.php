@@ -9,7 +9,7 @@
 
     <body>
     <?php
-        include("connexion.php");
+        include("php/connexion.php");
         $today = date("H:i:s"); 
         $sql = "INSERT INTO joueur (pseudo, finchrono, debutchrono) VALUES ('$_GET[login]', '$today', '$today')";
     ?>
