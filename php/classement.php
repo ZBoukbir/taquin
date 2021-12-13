@@ -1,12 +1,12 @@
 <?php
     include("connexion.php");
     $tableau_classement = [];
-    $requete = "SELECT pseudo, temps FROM joueur ORDER BY temps ASC LIMIT 10";
+    $requete = "SELECT id, nom FROM jeu";
     if ($result = mysqli_query($link, $requete)) {
         while ($ligne = mysqli_fetch_assoc($result)) {
             array_push($tableau_classement, [
-                "pseudo" => $ligne['pseudo'],
-                "temps" => $ligne['temps']
+                "id" => $ligne['id'],
+                "nom" => $ligne['nom']
             ]);
         }
 

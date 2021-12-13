@@ -24,13 +24,14 @@
         <div id="connexion" class='contour'> 
             <form id="pseudo" method="get" action="jeu.php">
                 <input type="text" name="login" required minlength="1" maxlength="20" size="20" placeholder="Rentrez un pseudo">
+                <label for="jeu"> Selectionne ton jeu : <select id="selectJeu" type="text"></select></label>
                 <input type="submit" value="C'est parti !">
             </form>
         </div>
 
         <div id="score" class='contour'>
             <div id="titreScore">Hall Of Fame</div>
-            <?php include("connexion.php"); ?>
+            <?php include("php/classement.php"); ?>
         </div>
     </div>
 
@@ -41,6 +42,8 @@
         -
         <a href="html/credits.html" target="_blank"> Crédits </a>
     </footer>
+
+    <script src="php/taquin.js"></script>
 
   </body>
 </html>
