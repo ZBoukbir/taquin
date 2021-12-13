@@ -1,0 +1,109 @@
+#contener2 {
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 5% 50% 40% 5%;
+    grid-template-rows: 5% 15% 75% 5%;
+
+    /* background-image : url("../images/fond/fondIndex.png");
+    background-size: cover; */
+}
+
+/* -------------------------------------------------------------------- */
+
+#contexte{
+    grid-column: 2;  
+    grid-row: 2 / span 2;     
+
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    overflow: auto;
+    scrollbar-width: thin;
+    height: 70vh;
+    overflow-y: scroll;
+    scrollbar-color: rgba(121, 159, 168, 0.5) rgba(13, 16, 32, 0.5);
+
+    border: 1px solid rgb(17, 8, 31);
+    border-radius: 5%;
+}
+
+/* -------------------------------------------------------------------- */
+
+#connexion{
+    grid-column: 3;                     
+    grid-row: 2;
+    
+    padding-left: 5%;
+    padding-top: 2.5%;
+
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+#score{
+    grid-column: 3;      
+    grid-row: 3;               
+    margin: 5%;
+
+    overflow: auto;
+    scrollbar-width: thin;
+    height: 50vh;
+    overflow-y: scroll;
+    scrollbar-color: rgba(121, 159, 168, 0.5) rgba(13, 16, 32, 0.5);
+    /*scrollbar-color: #caa6ca;
+    border: 0px;
+    border-radius: 0%;*/
+    border: px;
+    direction: rtl;
+    margin-top: 102px;
+    font-size: 65%;
+}
+
+#titreScore{
+    grid-column: 2;      
+    grid-row: 2;
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 5%; 
+
+    text-align: center;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 2.5em;
+}
+
+table {
+    border-collapse: separate; 
+    width: 100%;
+    text-align: center;
+    border-spacing : 5%;
+    border-spacing: 0px 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+    
+tr {
+    background:  rgba(175, 175, 185, 0.8);
+}
+
+/* -------------------------------------------------------------------- */
+
+.contour{
+    background-color: rgba(251, 250, 251, 0.466);
+    border: 1px solid rgb(17, 8, 31);
+    border-radius: 5%;
+}
+
+/* -------------------------------------------------------------------- */
